@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Google  -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- File Normalize  -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- Main Style sheet  -->
+    
+</head>
+<body>
+    <!---header section website-->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Savory</a>
+        <nav class="navbar">
+            <a href="#home"class="active">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+
+        </div>
+    </header>
+    <form action="" id="search-from">
+        <input type="search" placeholder="search-hear..." id="search-box">
+        <label for="search-box" class="fa-search"></label>
+        i,<fas class="fas fa-times" id="close"></fas>
+    </form>
+
+    <section class="home" id="home">
+        <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>Order Your Best <br>food anytime</h2>
+                    <p>Hey, Our delicious food is waiting for you, <br> We are always near to you with fresh items of food</p>
+                </div>
+                <a href="#" class="btn">Explore Food</a>
+            </div>
+            <div class="content-right">
+                <img src="images/image1.png" alt="food image1">
+                <img src="images/image5.png" alt="food image2">
+                <img src="images/image4.png" alt="food image3">
+            </div>
+        </div>
+    </section>
+
+    <section class="category">
+        <div class="list-items">
+            <!-- Section Heading -->
+            <h3>Features Flavours</h3>
+            
+            <!-- Cards Container -->
+            <div class="card-list">
+                
+                <!-- Card 1: Beef Burger -->
+                <div class="card">
+                    <img src="images/image2.png" alt="Beef Burger">
+                    <div class="food-title">
+                        <h1>Chicken Burger</h1>
+                    </div>
+                    <div class="food-desc">
+                        <p>A grilled chicken patty with fresh ingredients, creating a delightful experience.</p>
+                    </div>
+                    <div class="price">
+                        <span>Rs10.99</span>
+                        <span>
+                            <i class="bx bxs-plus-circle plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- Card 2: French Fries -->
+                <div class="card">
+                    <img src="images/image3.jpg" alt="French Fries">
+                    <div class="food-title">
+                        <h1>French Fries</h1>
+                    </div>
+                    <div class="food-desc">
+                        <p>Crispy golden fries, lightly salted and served to satisfy your cravings.</p>
+                    </div>
+                    <div class="price">
+                        <span>$11.99</span>
+                        <span>
+                            <i class="bx bxs-plus-circle plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- Card 3: Chicken -->
+                <div class="card">
+                    <img src="images/image4.png" alt="Chicken">
+                    <div class="food-title">
+                        <h1>Chicken</h1>
+                    </div>
+                    <div class="food-desc">
+                        <p>Succulent and tender chicken, cooked and seasoned with rich spices.</p>
+                    </div>
+                    <div class="price">
+                        <span>$15.99</span>
+                        <span>
+                            <i class="bx bxs-plus-circle plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- Card 4: Fried Chicken -->
+                <div class="card">
+                    <img src="images/image5.png" alt="Fried Chicken">
+                    <div class="food-title">
+                        <h1>Fried Chicken</h1>
+                    </div>
+                    <div class="food-desc">
+                        <p>Golden fried chicken that’s juicy on the inside and packed with flavor.</p>
+                    </div>
+                    <div class="price">
+                        <span>$20.99</span>
+                        <span>
+                            <i class="bx bxs-plus-circle plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="Heading">popular dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="images/dish-1.png" alt="">
+                <h3>roti with mutton slice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="images/dish-2.png" alt="">
+                <h3>delicious Burger with French fried</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="images/dish-3.png" alt="">
+                <h3>Grilled Chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="images/dish-4.png" alt="">
+                <h3>Fast food combo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="images/dish-5.png" alt="">
+                <h3>delicious Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+                <img src="images/dish-6.png" alt="">
+                <h3> chicken wrap</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading"> why choose us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Where quality meet excellent service</h3>
+                <p>It's the perfect dining experience where every dish is crafted with fresh, high-quality Experience quick and efficient service that ensures your food is servead fresh It's the dining experience where every dish is crafted with fresh, high-quality ingredients</p>
+                <p>The enticing aroma of sizzling cuisine now fills the streets of California, thanks to a passionate commitment to culinary excellence.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <span>Super Quality food</span>
+                            <p>A team of dreamers and doers build unique intractive music and art</p>  
+                        </div>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-thumbs-up"></i>
+                        <div>
+                            <span>Well reputation</span>
+                            <p>
+                                A team of passionate dreamers and doers, crafting unique, interactive music and art with a reputation for excellence.</p>  
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section  class="menu" id="menu">
+        <h3 class="sub-heading">Our Menu</h3>
+        <h1 class="heading">Today's Speciaalities</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-1.png" alt="Egg and cucumber Dish">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Egg and cucumber</h3>
+                    <p>A delightful blend of fresh cucumber and eggs, crafted to perfection.</p>
+                    <div class="price-button-container">
+                        <span class="price">$12.9</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-2.png" alt="Chinese pasta">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chinese Pasta</h3>
+                    <p>A fusion of flavors with authentic Chinese-style pasta.</p>
+                    <div class="price-button-container">
+                        <span class="price">$12.9</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-3.png" alt="Grilled chicken">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Grilled chicken</h3>
+                    <p>Perfectly grilled chicken with aromatic herbs and spices.</p>
+                    <div class="price-button-container">
+                        <span class="price">$12.9</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-4.png" alt="Flatbread wit mutton">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Flatbread wit mutton</h3>
+                    <p>A savory pairing of tender mutton slices and warm flatbread.</p>
+                    <div class="price-button-container">
+                        <span class="price">$12.9</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-6.png" alt="chicken with rice">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>chicken with rice</h3>
+                    <p>Classic chicken served over steamed white rice.</p>
+                    <div class="price-button-container">
+                        <span class="price">$12.9</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-5.png" alt="chicken leg piece">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>chicken leg piece</h3>
+                    <p>Juicy and tender chicken leg cooked to perfection.</p>
+                    <div class="price-button-container">
+                        <span class="price">$12.9</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+        <h3 class="sub-heading">Coustomer's review</h3>
+        <h1 class="heading">What they say ?</h1>
+        <div class="swiper-review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Sijal Chut</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>This place exceeded my expectations! The food was fresh, flavorful, and beautifully presented. The staff was attentive and made sure our experience was enjoyable. I’ll definitely be coming back for more!</p>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Ritik Randva</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The creamy Alfredo pasta was cooked to perfection, with a velvety sauce, fresh herbs, and a generous sprinkle of Parmesan. Absolutely delightful!</p>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Nimmaman</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The mutton biryani had fall-off-the-bone meat infused with aromatic spices. The flavors were rich and comforting, a treat for foodies.</p>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Bundi Rayta</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The chicken curry was tender and juicy, with a perfect blend of spices. Each bite was flavorful and satisfying, leaving us craving more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order" id="order">
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">free and fast</h1>
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your name</span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                
+                <div class="input">
+                    <span>Your number</span>
+                    <input type="number" placeholder="Enter your number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your order</span>
+                    <input type="text" placeholder="Enter your food name">
+                </div>
+                
+                <div class="input">
+                    <span>Additional food</span>
+                    <input type="text" placeholder="Extra food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>How much</span>
+                    <input type="text" placeholder="how many order">
+                </div>
+                
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local" >
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your address</span>
+                    <textarea placeholder="enter your address"></textarea>
+                </div>
+                
+                <div class="input">
+                    <span>Your message</span>
+                    <textarea placeholder="enter your message"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Order Now" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Our location</h3>
+                <ul>
+                    <li><a href=""><i class="fas fa-map-maker-alt"></i>United States</a></li>
+                    <li><a href=""><i class="fas fa-map-maker-alt"></i>Japan</a></li>
+                    <li><a href=""><i class="fas fa-map-maker-alt"></i>India</a></li>
+                    <li><a href=""><i class="fas fa-map-maker-alt"></i>Australia</a></li>
+                    <li><a href=""><i class="fas fa-map-maker-alt"></i>Canada</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#about">about us</a></li>
+                    <li><a href="#dishes">Specials</a></li>
+                    <li><a href="#review">Review</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>content Us</h3>
+                <ul>
+                    <li><a href="tel: +91 9801004703"><i class="fas fa-phone"></i>+91 9801004703</a></li>
+                    <li><a href="tel: +91 8229001976"><i class="fas fa-phone"></i>+91 8229001976</a></li>
+                    <li><a href="siddharthjha140804@gmail.com"><i class="fas fa-envelope"></i>siddharthjha140804@gmail.com</a></li>
+                    <li><a href=""><i class="fas fa-map"></i>560065 bangalore (India)</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contect with Us</h3>
+                
+                    <div class="social-links">
+                        <a href="" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                
+
+                <div class="newsletter">
+                    <h4>Subscribe to our News Letter</h4>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copysr;Made by  <i class="fa-solid fa-heart"></i> SIDDHARTH JHA</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Privecy policy</a>
+                <a href="#">Terms of service</a>
+                <a href="#">Cookies Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!-- <div class="loader-container">
+        <img src="images/loader.gif" alt="loading...">
+    </div> -->
+  
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./js/app.js"></script>
+   
+    
+    
+</body>
+</html>
